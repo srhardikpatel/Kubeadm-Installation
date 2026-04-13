@@ -197,7 +197,7 @@ kubectl apply -f calico.yaml
 ## Execute Only on the "Worker" Node
 &emsp;***1. Join the Worker Node to the Cluster***
 
-&emsp;Use the kubeadm join command from the control plane initialization step.
+&emsp;Use the kubeadm join command you saved from the control plane initialization step.
 
 > When pasting the join command from the control plane make sure either you are working as `sudo` user or use `sudo` at the beginning and `--v=5` at the end of the command.
 
